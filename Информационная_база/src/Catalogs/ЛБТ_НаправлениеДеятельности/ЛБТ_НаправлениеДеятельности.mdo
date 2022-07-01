@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3546baf1-3ffa-427f-93df-b4b14b69e51c">
+  <producedTypes>
+    <objectType typeId="9c58ab6e-6bfd-45e5-b246-457ad8d6dc83" valueTypeId="91a0b263-36f2-4b0d-941f-a5ae2345c2c1"/>
+    <refType typeId="7eab5e8b-237c-40f2-bb6f-5124f2dfecda" valueTypeId="8428647c-1d6b-4c72-bbe2-d3da1f8d0e02"/>
+    <selectionType typeId="00145dea-f0d2-4225-a14b-252d05a948b3" valueTypeId="f97507a2-a2f7-4a2b-a121-06662b1d5f95"/>
+    <listType typeId="2c65e6ca-a1f3-4be7-bbaa-eb059014ae0f" valueTypeId="920bcdd1-062b-4656-a73e-e77ccde5194d"/>
+    <managerType typeId="eb28fa4d-907d-4a2d-904b-f8c750f9f6f4" valueTypeId="33937151-d157-494b-8be4-36d4bb45a296"/>
+  </producedTypes>
+  <name>ЛБТ_НаправлениеДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направление деятельности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_НаправлениеДеятельности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛБТ_НаправлениеДеятельности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛБТ_НаправлениеДеятельности.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛБТ_НаправлениеДеятельности.Form.ФормаСписка</defaultListForm>
+  <forms uuid="65d50733-d3c1-4519-a44b-4c6fb8b4792e">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="652054b4-2d25-405f-8121-225044d41c07">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

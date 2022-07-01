@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26ce68d2-7b46-4d47-ad1f-a4fa837f9141">
+  <producedTypes>
+    <objectType typeId="5ff065be-fcb3-448f-af5f-bfb911cece61" valueTypeId="e0531686-2500-405f-9f52-51a0b885906f"/>
+    <refType typeId="a075bd8d-ede3-42e8-9e28-c4eb1e7eca42" valueTypeId="43d5d61b-cbc9-418f-a32b-9ec8e1bf2986"/>
+    <selectionType typeId="bed0d6f0-c974-4234-8e6e-5cf36e2a23f0" valueTypeId="db2e6687-e971-46a2-81e0-38b9c7738558"/>
+    <listType typeId="822cb97b-ebac-4dc3-ae43-b84a17005c77" valueTypeId="78f830ba-e1ed-4e34-a9e6-db7f97e19960"/>
+    <managerType typeId="0cb5e530-b45d-4097-827e-bfb3c32f61f9" valueTypeId="1c307632-8125-4543-8e2d-5216e8cbf851"/>
+  </producedTypes>
+  <name>ЛБТ_ФункциональныеБлоки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональные блоки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_ФункциональныеБлоки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛБТ_ФункциональныеБлоки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Функциональный блок</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛБТ_ФункциональныеБлоки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛБТ_ФункциональныеБлоки.Form.ФормаСписка</defaultListForm>
+  <forms uuid="e741522b-21e3-45f6-8e76-b8f954146a74">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="75173558-f44a-4861-bfa3-c07a0ab0c2b3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

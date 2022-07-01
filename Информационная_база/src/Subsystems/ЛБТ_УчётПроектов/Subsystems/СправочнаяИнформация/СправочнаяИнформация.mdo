@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b779ef73-42c6-41af-b4ab-14e59da527f8">
+  <name>СправочнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочная информация</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ЛБТ_НаправлениеДеятельности</content>
+  <content>Catalog.ЛБТ_Конфигурации</content>
+  <content>Catalog.ЛБТ_МасштабВнедрения</content>
+  <content>Catalog.ЛБТ_ФункциональныеБлоки</content>
+  <content>Catalog.ЛБТ_ШаблоныТиповЗадач</content>
+  <content>Catalog.ЛБТ_ЗадачиАвтоматизации</content>
+  <content>Catalog.ЛБТ_ТипыЗадач</content>
+  <content>Catalog.ЛБТ_НазванияТиповЗадач</content>
+  <parentSubsystem>Subsystem.ЛБТ_УчётПроектов</parentSubsystem>
+</mdclass:Subsystem>

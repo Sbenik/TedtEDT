@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cc1f00f5-6583-41e5-9f58-74b4d9879960">
+  <producedTypes>
+    <objectType typeId="4389862f-85c6-46a5-b25f-30a554356c07" valueTypeId="2e436503-d8cc-4b22-a266-b0b26382b61c"/>
+    <refType typeId="d1ec2584-a37e-4df7-b6fe-914f5e084bfe" valueTypeId="9d81161e-d773-42c9-b522-42189558ff20"/>
+    <selectionType typeId="c898e6b0-43d2-436e-aa0c-db07cd64ef1a" valueTypeId="951b19d8-dce4-49ed-bb8c-e0b9a5a6c07b"/>
+    <listType typeId="ac895131-0911-4072-a758-1c5a40a73747" valueTypeId="4ac5c535-005c-415b-98be-6703c4f006e9"/>
+    <managerType typeId="488e6a41-642f-4fe8-bb25-6586f372adbc" valueTypeId="45d070e9-571d-4158-b4c7-d713914be605"/>
+  </producedTypes>
+  <name>ЛБТ_НазванияТиповЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Названия типов задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_НазванияТиповЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛБТ_НазванияТиповЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Название типа задачи</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛБТ_НазванияТиповЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛБТ_НазванияТиповЗадач.Form.ФормаСписка</defaultListForm>
+  <forms uuid="1092a8c1-be03-4efb-84da-ec2488291630">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b4c90759-e621-4c9d-b270-33d7dfef493e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

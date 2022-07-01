@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e07a4fe2-b428-49de-8e2a-1d34c58c37bc">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4433e69f-503c-4ea3-a683-91fb691d481d"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="eb923379-4436-43b4-9f24-2d1dc43be2dc"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="16610520-9bfe-4bd1-983c-95ba87684e53"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8083889a-5123-45ff-b965-727aa2e45a28"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="8d63fff3-fa1a-46b7-bdad-e205f4644d33"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="3a278908-b5ca-42e0-8a22-dfbfd8fb3977"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="67f5c783-e832-4e61-8dfd-4fa6894eab40"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.19</compatibilityMode>
+  <languages uuid="67d4dac6-9997-42e2-a84b-df5dbcb82819">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.ЛБТ_УчётПроектов</subsystems>
+  <roles>Role.ЛБТ_ПолныеПрава</roles>
+  <catalogs>Catalog.ЛБТ_НаправлениеДеятельности</catalogs>
+  <catalogs>Catalog.ЛБТ_Конфигурации</catalogs>
+  <catalogs>Catalog.ЛБТ_МасштабВнедрения</catalogs>
+  <catalogs>Catalog.ЛБТ_МетодикаВнедрения</catalogs>
+  <catalogs>Catalog.ЛБТ_ФункциональныеБлоки</catalogs>
+  <catalogs>Catalog.ЛБТ_ШаблоныТиповЗадач</catalogs>
+  <catalogs>Catalog.ЛБТ_ЗадачиАвтоматизации</catalogs>
+  <catalogs>Catalog.ЛБТ_ТипыЗадач</catalogs>
+  <catalogs>Catalog.ЛБТ_НазванияТиповЗадач</catalogs>
+  <documents>Document.ЛБТ_ПроектВнедрения</documents>
+  <dataProcessors>DataProcessor.ЛБТ_АРМ</dataProcessors>
+</mdclass:Configuration>

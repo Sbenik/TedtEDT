@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9d3d74e-4f75-4b7e-8441-92a8279621e3">
+  <name>АРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЛБТ_АРМ</content>
+  <parentSubsystem>Subsystem.ЛБТ_УчётПроектов</parentSubsystem>
+</mdclass:Subsystem>

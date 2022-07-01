@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f6b50f6-ee77-4deb-b82a-196b66dfcff2">
+  <producedTypes>
+    <objectType typeId="5658dc0c-9f09-44f6-b183-550c30e93d0d" valueTypeId="a5089999-b5b2-4f34-99dc-df6a80e0c490"/>
+    <managerType typeId="633305fd-eb85-470a-a708-23fdb849fcfb" valueTypeId="266145f6-e161-4e15-9f85-92d8dc42f297"/>
+  </producedTypes>
+  <name>ЛБТ_АРМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>АРМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЛБТ_АРМ.Form.Форма</defaultForm>
+  <attributes uuid="c3d963ca-e1ac-4b90-9675-1a3765502288">
+    <name>МасштабВнедрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Масштаб внедрения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛБТ_МасштабВнедрения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1a3db6a8-a908-48b3-8e03-7eea03817d5b">
+    <name>НаправлениеДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направление деятельности</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛБТ_НаправлениеДеятельности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1c1e3cbe-6a12-4e57-b3e5-fd6908869218">
+    <name>Конфигурация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конфигурация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛБТ_Конфигурации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c1ba5df7-de18-4269-b69a-b590c1db9b95">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛБТ_ШаблоныТиповЗадач</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="96ad5dc4-0eda-456f-a574-322e0454c06a">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0aaa190f-a521-4a5c-a69b-f382d97d4ddc">
+    <name>ФормаСоставРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма состав работ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="09facfcb-a4dd-4494-80b3-db28bf204b9a">
+    <name>ФормаВыбораОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора объектов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1464d76-9085-4590-a0a1-75b81c237331">
+    <name>ФормаВыбораВидовРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор видов работ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a5a3bb98-72bc-478f-855c-284079ad02ca">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

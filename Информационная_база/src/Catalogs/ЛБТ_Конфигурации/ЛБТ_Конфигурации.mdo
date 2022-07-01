@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24fc8088-f123-4ecd-a74b-46084c008fab">
+  <producedTypes>
+    <objectType typeId="2b36b9bf-6900-445c-8a19-ed47370bbb16" valueTypeId="b794fa97-e589-4262-acf5-49f96e690e5a"/>
+    <refType typeId="e494dcc1-26a9-4607-af94-1099eb4dd749" valueTypeId="3aaa50b4-b5de-4e35-b7d0-635b9a1c52b5"/>
+    <selectionType typeId="55d91294-850d-4d8b-afaa-4f3a2955e2db" valueTypeId="a17239ab-e6d2-48a7-a00b-913f69c304bc"/>
+    <listType typeId="d6da1088-dbd1-43a2-8953-377bc13a51c7" valueTypeId="8dbab341-4a0a-4d9e-b22f-422caf9523a9"/>
+    <managerType typeId="bfde2474-d0a2-4e90-870d-37e11fba858c" valueTypeId="bd7a8484-e1bd-47c6-980a-879a4dd18fac"/>
+  </producedTypes>
+  <name>ЛБТ_Конфигурации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_Конфигурации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛБТ_Конфигурации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Конфигурация</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛБТ_Конфигурации.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛБТ_Конфигурации.Form.ФормаСписка</defaultListForm>
+  <forms uuid="622faa84-d4a7-4a28-a1a1-ad64516c6c14">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e00c8217-7947-4765-a882-110e746872e0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

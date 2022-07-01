@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ceb1159-54ca-4730-8eda-35186940e334">
+  <producedTypes>
+    <objectType typeId="59aef817-ac1d-4863-8602-81c9ba99f9d0" valueTypeId="b42cc37d-cede-4ee5-9d94-8ea25f793784"/>
+    <refType typeId="d19a39b3-458f-41d1-b07a-e6c9712832cc" valueTypeId="732a400a-8035-4774-8565-f847a4225e03"/>
+    <selectionType typeId="239255b2-c225-4f25-abb3-bc3952220cb0" valueTypeId="4d21849a-2459-4351-98de-41f35bb14e0b"/>
+    <listType typeId="5410552b-0828-4bbf-9f95-02bbfea7c201" valueTypeId="56aa5a1d-30ef-4dc4-805e-7ddffcbc2c2c"/>
+    <managerType typeId="cdd04ec0-fb70-44cc-a5c3-2de6c272b748" valueTypeId="3f8a80a5-9aa7-43df-867b-7b514a0c4d9f"/>
+  </producedTypes>
+  <name>ЛБТ_ШаблоныТиповЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шаблоны типов задач</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛБТ_ШаблоныТиповЗадач.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ЛБТ_ШаблоныТиповЗадач.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон типов задач</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>120</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛБТ_ШаблоныТиповЗадач.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛБТ_ШаблоныТиповЗадач.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="2f3f0019-589b-4d32-ba9e-9c09860fade0">
+    <name>МетодикаВнедрения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Методика внедрения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЛБТ_МетодикаВнедрения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c4765f20-6f73-47ec-afce-92dd0a4498f0">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac3aba48-99a6-4d48-934d-15bf7810f825">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
