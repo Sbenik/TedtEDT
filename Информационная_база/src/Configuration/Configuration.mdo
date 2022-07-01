@@ -47,5 +47,6 @@
   <catalogs>Catalog.ЛБТ_ТипыЗадач</catalogs>
   <catalogs>Catalog.ЛБТ_НазванияТиповЗадач</catalogs>
   <documents>Document.ЛБТ_ПроектВнедрения</documents>
+  <documents>Document.ТестовыйДокумент</documents>
   <dataProcessors>DataProcessor.ЛБТ_АРМ</dataProcessors>
 </mdclass:Configuration>
